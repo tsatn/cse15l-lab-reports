@@ -9,7 +9,7 @@ texts
 * item one 
 * item two
 * item three
-Horizontal rule: ------
+---
 1. first sorted 
 2. second sorted 
 3. third sorted
