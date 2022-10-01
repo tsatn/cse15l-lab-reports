@@ -4,7 +4,7 @@ A16878664
 ## Step 1 - Installing VScode 
 To download VScode for your own Mac, follow this link to the VScode official website: https://code.visualstudio.com/ 
 Click the blue button on the web page: 
-![image] file:///Users/tteresattian/Desktop/calendar%20.png
+![image] (file:///Users/tteresattian/Desktop/calendar%20.png)
 
 ## Step 2 - Remotely Connecting
 
