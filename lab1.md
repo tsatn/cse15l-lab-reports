@@ -56,14 +56,35 @@ The command called scp gives us another way to copy files from the client comput
 
 * Copy the block of code below into the new java file.
 
-* Below is a screenshot of the procedure
-** Compile: $ javac WhereAmI.java
-** Run: $ java WhereAmI
-** Type in: $ scp WhereAmI.java shtian@ieng6.ucsd.edu:~/
-** Enter password
-** Then, compile and run the same java file again 
+Below is a screenshot of the procedure
+* Compile: $ javac WhereAmI.java
+* Run: $ java WhereAmI
+* Type in: $ scp WhereAmI.java shtian@ieng6.ucsd.edu:~/
+* Enter password
+* Then, compile and run the same java file again 
 
 ## Step 5 - Setting an SSH Key
+
+Here we are finding a more convenient method to log into the remote computer and perform our tasks using what’s called ssh keys. Ssh keygen allows us to save our passwords as the public for logging in, and with this method, the process will become more convenient and we will not have to type in our passwords every time.  
+  
+Below is the detailed procedure for how to do this: 
+
+* (your client computer)
+* Type $ ssh-keygen
+* Type:  /Users/tteresattian/.ssh/id_rsa
+* When asked Overwrite? Type: y (for yes)
+* Enter pw twice 
+* Type: $ ssh shtian@ieng6.ucsd.edu
+* Enter pw 
+
+* (server)
+* Type: $ mkdir .ssh
+* Type: logout
+ 
+* (returns to your client computer)
+* Type: scp /Users/tteresattian/.ssh/id_rsa.pub shtian@ieng6.ucsd.edu:~/.ssh/authorized_keys 
+* Enter pw 
+
 
 ## Step 6 - Optimizing Remote Running
 
