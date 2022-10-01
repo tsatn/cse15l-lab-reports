@@ -48,7 +48,7 @@ After this, we log out from the remote server. To do this, type $ exit on the Te
   
 ## Step 4 - Moving Files with scp 
 
-The command called scp gives us another way to copy files from the client computer (your laptop/Mac) to the remote computer.
+> The command called scp gives us another way to copy files from the client computer (your laptop/Mac) to the remote computer.
 
 * While VScode is open, go to the top menu bar, click on “File”, select “New File”
 * Type “java” into the pop-up search bar on the VScode window. 
@@ -65,7 +65,7 @@ Below is a screenshot of the procedure
 
 ## Step 5 - Setting an SSH Key
 
-Here we are finding a more convenient method to log into the remote computer and perform our tasks using what’s called ssh keys. Ssh keygen allows us to save our passwords as the public for logging in, and with this method, the process will become more convenient and we will not have to type in our passwords every time.  
+> Here we are finding a more convenient method to log into the remote computer and perform our tasks using what’s called ssh keys. Ssh keygen allows us to save our passwords as the public for logging in, and with this method, the process will become more convenient and we will not have to type in our passwords every time.  
   
 Below is the detailed procedure for how to do this: 
 
