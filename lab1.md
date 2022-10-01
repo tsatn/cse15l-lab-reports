@@ -42,7 +42,26 @@ Here is a list of commands to experiment on the terminal:
 
 Below is an example of commands I ran on my terminal and playing with the change of directories:
 
+  
+After this, we log out from the remote server. To do this, type $ exit on the Terminal.
+
+  
 ## Step 4 - Moving Files with scp 
+
+The command called scp gives us another way to copy files from the client computer (your laptop/Mac) to the remote computer.
+
+* While VScode is open, go to the top menu bar, click on “File”, select “New File”
+* Type “java” into the pop-up search bar on the VScode window. 
+* Name the new file WhereAmI.java
+
+* Copy the block of code below into the new java file.
+
+* Below is a screenshot of the procedure
+** Compile: $ javac WhereAmI.java
+** Run: $ java WhereAmI
+** Type in: $ scp WhereAmI.java shtian@ieng6.ucsd.edu:~/
+** Enter password
+** Then, compile and run the same java file again 
 
 ## Step 5 - Setting an SSH Key
 
