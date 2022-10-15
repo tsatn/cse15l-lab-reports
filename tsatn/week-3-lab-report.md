@@ -87,7 +87,8 @@ A16878664
 
 <img width="789" alt="Screen Shot 2022-10-14 at 10 42 27 PM" src="https://user-images.githubusercontent.com/114328188/195971085-ba8cc505-5eef-4b56-ab6a-9593edc26678.png">
 
-> type the querie **/add?s=pineapple** in the path to add a new string "pineapple" to the empty list 
+> type the querie **/add?s=pineapple** in the path to add a new string "pineapple" to the empty list.
+
 > This block of code below supports this function.
 >  
                 } else {
@@ -103,6 +104,7 @@ A16878664
 <img width="788" alt="Screen Shot 2022-10-14 at 10 44 27 PM" src="https://user-images.githubusercontent.com/114328188/195971091-41f2fa31-4f44-4020-aa7e-ea718ae3a054.png">
 
 > the command **/search?s=app** allows you to search for strings that contains "app" in the stored memory. 
+> This block of code below supports this function.
 > 
                 } else if (url.getPath().contains("search")) {
                     String[] parameters = url.getQuery().split("=");
