@@ -82,6 +82,7 @@ after having these code in the SearchEngine.java file, open a new terminal and e
 
 
 # Part Two
+## Bugs and Symptoms
 
 
 
