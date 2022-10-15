@@ -70,9 +70,13 @@ class Handler implements URLHandler {
 
 after having these code in the SearchEngine.java file, open a new terminal and execute the two commands below to compile and run the code.
 
-<img width="593" alt="Screen Shot 2022-10-14 at 6 42 54 PM" src="https://user-images.githubusercontent.com/114328188/195963559-7ec209c5-4654-4660-8cb9-10213e4441e1.png">
+<img width="859" alt="Screen Shot 2022-10-14 at 10 41 51 PM" src="https://user-images.githubusercontent.com/114328188/195971083-5209f055-9081-4dd0-be03-7ccdb7954bf4.png">
 
-<img width="1507" alt="Screen Shot 2022-10-14 at 6 43 49 PM" src="https://user-images.githubusercontent.com/114328188/195963543-cc9dd0be-3b2c-4df6-b8d9-42dc72b8ef34.png">
+<img width="789" alt="Screen Shot 2022-10-14 at 10 42 27 PM" src="https://user-images.githubusercontent.com/114328188/195971085-ba8cc505-5eef-4b56-ab6a-9593edc26678.png">
+
+<img width="789" alt="Screen Shot 2022-10-14 at 10 43 49 PM" src="https://user-images.githubusercontent.com/114328188/195971087-2eb9b627-fb9c-4ce1-ae1a-d3725263e284.png">
+
+<img width="788" alt="Screen Shot 2022-10-14 at 10 44 27 PM" src="https://user-images.githubusercontent.com/114328188/195971091-41f2fa31-4f44-4020-aa7e-ea718ae3a054.png">
 
 
 # Part Two
