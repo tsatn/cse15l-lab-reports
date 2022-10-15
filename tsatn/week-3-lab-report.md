@@ -104,6 +104,7 @@ A16878664
 <img width="788" alt="Screen Shot 2022-10-14 at 10 44 27 PM" src="https://user-images.githubusercontent.com/114328188/195971091-41f2fa31-4f44-4020-aa7e-ea718ae3a054.png">
 
 > the command **/search?s=app** allows you to search for strings that contains "app" in the stored memory. 
+
 > This block of code below supports this function.
 > 
                 } else if (url.getPath().contains("search")) {
