@@ -1,9 +1,11 @@
-# CSE 15L Lab 2
+# CSE 15L Lab 2 (Week 3)
+
 Teresa Tian
 
 A16878664
 
 ## code for SearchEngine.java
+Name a new java file called SearchEngine.java
 
 import java.io.IOException;
 
@@ -63,6 +65,8 @@ class Handler implements URLHandler {
             Server.start(port, new Handler());
         }
     }
+
+after having these code in the SearchEngine.java file, open a new terminal and execute the two commands below to compile and run the code.
 <img width="593" alt="Screen Shot 2022-10-14 at 6 42 54 PM" src="https://user-images.githubusercontent.com/114328188/195963559-7ec209c5-4654-4660-8cb9-10213e4441e1.png">
 
 <img width="1507" alt="Screen Shot 2022-10-14 at 6 43 49 PM" src="https://user-images.githubusercontent.com/114328188/195963543-cc9dd0be-3b2c-4df6-b8d9-42dc72b8ef34.png">
