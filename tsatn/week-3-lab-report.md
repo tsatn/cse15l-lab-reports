@@ -8,9 +8,7 @@ A16878664
 ## Code for SearchEngine.java
 
 import java.io.IOException;
-
 import java.net.URI;
-
 import java.util.*;
 
 class Handler implements URLHandler {
