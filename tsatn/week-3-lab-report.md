@@ -110,9 +110,9 @@ A16878664
                } else if (url.getPath().contains("search")) {
                     String[] parameters = url.getQuery().split("=");
                     List<String> found = new ArrayList<String>();
-
+    
                     if (parameters[0].contains("s")) {
-
+    
                         for (String str : strList) {
                             if (str.contains(parameters[1])) {
                                 found.add(str);
@@ -121,6 +121,7 @@ A16878664
                     }
                     return String.format("%s", found);
                 }
+    
 <img width="894" alt="Screen Shot 2022-10-14 at 10 58 43 PM" src="https://user-images.githubusercontent.com/114328188/195971528-db6c27c3-c9cd-4672-ba88-ede7e7d45b91.png">
 
 ---
