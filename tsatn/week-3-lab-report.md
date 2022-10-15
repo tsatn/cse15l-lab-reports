@@ -66,7 +66,9 @@ class Handler implements URLHandler {
 
 ## Terminal commands
 
-after having these code in the SearchEngine.java file, open a new terminal and execute the two commands below to compile and run the code.
+> after having these code in the SearchEngine.java file, open a new terminal and execute the two commands below to compile and run the code. After seeing the message that the server has started, click on the link in the terminal. Once you see the website below, it means that you have successfully implemented a web server, which tracks the list of strings. 
+
+> The code in the file SearchEngine.java shown above would support you to edit the path and add strings to an empty list.
 
 <img width="859" alt="Screen Shot 2022-10-14 at 10 41 51 PM" src="https://user-images.githubusercontent.com/114328188/195971083-5209f055-9081-4dd0-be03-7ccdb7954bf4.png">
 
