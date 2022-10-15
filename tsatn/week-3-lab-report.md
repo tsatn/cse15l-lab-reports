@@ -5,7 +5,8 @@ Teresa Tian
 A16878664
 
 ## code for SearchEngine.java
-> import java.io.IOException;
+
+import java.io.IOException;
 
 import java.net.URI;
 
