@@ -5,7 +5,7 @@ Teresa Tian
 A16878664
 
 # Part One
-## code for SearchEngine.java
+## Code for SearchEngine.java
 
 import java.io.IOException;
 
@@ -66,7 +66,7 @@ class Handler implements URLHandler {
         }
     }
 
-## terminal commands
+## Terminal commands
 
 after having these code in the SearchEngine.java file, open a new terminal and execute the two commands below to compile and run the code.
 
@@ -75,7 +75,7 @@ after having these code in the SearchEngine.java file, open a new terminal and e
 <img width="1507" alt="Screen Shot 2022-10-14 at 6 43 49 PM" src="https://user-images.githubusercontent.com/114328188/195963543-cc9dd0be-3b2c-4df6-b8d9-42dc72b8ef34.png">
 
 
-# Part One
+# Part Two
 
 
 
