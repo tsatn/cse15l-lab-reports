@@ -68,7 +68,6 @@ A16878664
 
 > After having these code in the SearchEngine.java file, open a new terminal and execute the two commands above to compile and run the code. 
 > This block of code determines that the number of the server. The random number 4020 that I typed in the terminal commands will later appear in my web server's path.
-> 
             class NumberServer {
                 public static void main(String[] args) throws IOException {
                     if(args.length == 0){
@@ -90,7 +89,7 @@ A16878664
 > type the querie **/add?s=pineapple** in the path to add a new string "pineapple" to the empty list.
 
 > This block of code below supports this function.
->  
+
                 } else {
                     strList.add(parameters[1]);
                     return String.format("%s", strList);
@@ -106,7 +105,7 @@ A16878664
 > the command **/search?s=app** allows you to search for strings that contains "app" in the stored memory. 
 
 > This block of code below supports this function.
-> 
+
                } else if (url.getPath().contains("search")) {
                     String[] parameters = url.getQuery().split("=");
                     List<String> found = new ArrayList<String>();
