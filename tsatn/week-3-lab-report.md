@@ -78,6 +78,8 @@ after having these code in the SearchEngine.java file, open a new terminal and e
 
 <img width="788" alt="Screen Shot 2022-10-14 at 10 44 27 PM" src="https://user-images.githubusercontent.com/114328188/195971091-41f2fa31-4f44-4020-aa7e-ea718ae3a054.png">
 
+<img width="894" alt="Screen Shot 2022-10-14 at 10 58 43 PM" src="https://user-images.githubusercontent.com/114328188/195971528-db6c27c3-c9cd-4672-ba88-ede7e7d45b91.png">
+
 
 # Part Two
 
