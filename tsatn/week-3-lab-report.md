@@ -69,18 +69,18 @@ A16878664
 > After having these code in the SearchEngine.java file, open a new terminal and execute the two commands above to compile and run the code. 
 > This block of code determines that the number of the server. The random number 4020 that I typed in the terminal commands will later appear in my web server's path.
 
-class NumberServer {
-    public static void main(String[] args) throws IOException {
-        if(args.length == 0){
-            System.out.println("Missing port number! Try any number between 1024 to 49151");
-            return;
+        class NumberServer {
+            public static void main(String[] args) throws IOException {
+                if(args.length == 0){
+                    System.out.println("Missing port number! Try any number between 1024 to 49151");
+                    return;
+                }
+
+                int port = Integer.parseInt(args[0]);
+
+                Server.start(port, new Handler());
+            }
         }
-
-        int port = Integer.parseInt(args[0]);
-
-        Server.start(port, new Handler());
-    }
-}
 
 > After seeing the message that the server has started, click on the link in the terminal. Once you see the website below, it means that you have successfully implemented a web server, which tracks the list of strings. 
 
