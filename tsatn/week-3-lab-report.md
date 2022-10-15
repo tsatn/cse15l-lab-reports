@@ -5,9 +5,7 @@ Teresa Tian
 A16878664
 
 ## code for SearchEngine.java
-Name a new java file called SearchEngine.java
->
-import java.io.IOException;
+> import java.io.IOException;
 
 import java.net.URI;
 
