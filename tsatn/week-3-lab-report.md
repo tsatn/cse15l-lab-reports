@@ -74,6 +74,8 @@ after having these code in the SearchEngine.java file, open a new terminal and e
 
 <img width="789" alt="Screen Shot 2022-10-14 at 10 43 49 PM" src="https://user-images.githubusercontent.com/114328188/195971087-2eb9b627-fb9c-4ce1-ae1a-d3725263e284.png">
 
+<img width="788" alt="Screen Shot 2022-10-14 at 10 46 39 PM" src="https://user-images.githubusercontent.com/114328188/195971144-31b2934e-9e0f-4aab-8c7b-d61e6c6a042e.png">
+
 <img width="788" alt="Screen Shot 2022-10-14 at 10 44 27 PM" src="https://user-images.githubusercontent.com/114328188/195971091-41f2fa31-4f44-4020-aa7e-ea718ae3a054.png">
 
 
