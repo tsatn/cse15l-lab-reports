@@ -61,8 +61,7 @@ class Handler implements URLHandler {
             Server.start(port, new Handler());
         }
     }
-
-<img width="596" alt="Screen Shot 2022-10-14 at 6 42 31 PM" src="https://user-images.githubusercontent.com/114328188/195963466-f18eb530-45d4-41ba-b3ad-2f289d9e9c22.png">
+<img width="593" alt="Screen Shot 2022-10-14 at 6 42 54 PM" src="https://user-images.githubusercontent.com/114328188/195963559-7ec209c5-4654-4660-8cb9-10213e4441e1.png">
 
 <img width="1507" alt="Screen Shot 2022-10-14 at 6 43 49 PM" src="https://user-images.githubusercontent.com/114328188/195963543-cc9dd0be-3b2c-4df6-b8d9-42dc72b8ef34.png">
 
