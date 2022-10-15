@@ -92,10 +92,11 @@ class NumberServer {
 
 > This block of code below supports this function.
 
-} else {
-    strList.add(parameters[1]);
-    return String.format("%s", strList);
-}
+                        } else {
+                            strList.add(parameters[1]);
+                            return String.format("%s", strList);
+                        }
+
 
 <img width="788" alt="Screen Shot 2022-10-14 at 10 46 39 PM" src="https://user-images.githubusercontent.com/114328188/195971144-31b2934e-9e0f-4aab-8c7b-d61e6c6a042e.png">
 
