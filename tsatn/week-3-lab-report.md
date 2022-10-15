@@ -1,5 +1,6 @@
 # CSE 15L Lab 2
-Teresa Tian 
+Teresa Tian
+
 A16878664
 
 ## code for SearchEngine.java
