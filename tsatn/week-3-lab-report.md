@@ -107,7 +107,7 @@ A16878664
 
 > This block of code below supports this function.
 > 
-                } else if (url.getPath().contains("search")) {
+               } else if (url.getPath().contains("search")) {
                     String[] parameters = url.getQuery().split("=");
                     List<String> found = new ArrayList<String>();
 
