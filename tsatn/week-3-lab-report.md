@@ -68,7 +68,7 @@ A16878664
 
 > After having these code in the SearchEngine.java file, open a new terminal and execute the two commands above to compile and run the code. 
 > This block of code determines that the number of the server. The random number 4020 that I typed in the terminal commands will later appear in my web server's path.
-> 
+
 class NumberServer {
     public static void main(String[] args) throws IOException {
         if(args.length == 0){
@@ -81,6 +81,7 @@ class NumberServer {
         Server.start(port, new Handler());
     }
 }
+
 > After seeing the message that the server has started, click on the link in the terminal. Once you see the website below, it means that you have successfully implemented a web server, which tracks the list of strings. 
 
 > The code in the file SearchEngine.java shown above would support you to edit the path and add strings to an empty list.
@@ -90,11 +91,12 @@ class NumberServer {
 > type the querie **/add?s=pineapple** in the path to add a new string "pineapple" to the empty list.
 
 > This block of code below supports this function.
-> 
+
 } else {
     strList.add(parameters[1]);
     return String.format("%s", strList);
 }
+
 <img width="788" alt="Screen Shot 2022-10-14 at 10 46 39 PM" src="https://user-images.githubusercontent.com/114328188/195971144-31b2934e-9e0f-4aab-8c7b-d61e6c6a042e.png">
 
 > Type in the command in the same style to add more strings to the list.
@@ -106,7 +108,6 @@ class NumberServer {
 > the command **/search?s=app** allows you to search for strings that contains "app" in the stored memory. 
 
 > This block of code below supports this function.
-> 
 
 } else if (url.getPath().contains("search")) {
     String[] parameters = url.getQuery().split("=");
