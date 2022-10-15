@@ -103,6 +103,21 @@ A16878664
 <img width="788" alt="Screen Shot 2022-10-14 at 10 44 27 PM" src="https://user-images.githubusercontent.com/114328188/195971091-41f2fa31-4f44-4020-aa7e-ea718ae3a054.png">
 
 > the command **/search?s=app** allows you to search for strings that contains "app" in the stored memory. 
+> 
+                } else if (url.getPath().contains("search")) {
+                    String[] parameters = url.getQuery().split("=");
+                    List<String> found = new ArrayList<String>();
+
+                    if (parameters[0].contains("s")) {
+
+                        for (String str : strList) {
+                            if (str.contains(parameters[1])) {
+                                found.add(str);
+                            }
+                        }
+                    }
+                    return String.format("%s", found);
+                }
 <img width="894" alt="Screen Shot 2022-10-14 at 10 58 43 PM" src="https://user-images.githubusercontent.com/114328188/195971528-db6c27c3-c9cd-4672-ba88-ede7e7d45b91.png">
 
 ---
