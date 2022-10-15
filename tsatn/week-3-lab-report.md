@@ -64,10 +64,11 @@ A16878664
 
 ## Terminal commands
 
-> After having these code in the SearchEngine.java file, open a new terminal and execute the two commands below to compile and run the code. 
+<img width="859" alt="Screen Shot 2022-10-14 at 10 41 51 PM" src="https://user-images.githubusercontent.com/114328188/195971083-5209f055-9081-4dd0-be03-7ccdb7954bf4.png">
+
+> After having these code in the SearchEngine.java file, open a new terminal and execute the two commands above to compile and run the code. 
 > This block of code determines that the number of the server. The random number 4020 that I typed in the terminal commands will later appear in my web server's path.
 > 
-
             class NumberServer {
                 public static void main(String[] args) throws IOException {
                     if(args.length == 0){
@@ -83,8 +84,6 @@ A16878664
 > After seeing the message that the server has started, click on the link in the terminal. Once you see the website below, it means that you have successfully implemented a web server, which tracks the list of strings. 
 
 > The code in the file SearchEngine.java shown above would support you to edit the path and add strings to an empty list.
-
-<img width="859" alt="Screen Shot 2022-10-14 at 10 41 51 PM" src="https://user-images.githubusercontent.com/114328188/195971083-5209f055-9081-4dd0-be03-7ccdb7954bf4.png">
 
 <img width="789" alt="Screen Shot 2022-10-14 at 10 42 27 PM" src="https://user-images.githubusercontent.com/114328188/195971085-ba8cc505-5eef-4b56-ab6a-9593edc26678.png">
 
