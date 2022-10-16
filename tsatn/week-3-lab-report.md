@@ -138,6 +138,14 @@ Teresa Tian,  A16878664
 **Bug 1 (ArrayExamples.java)**
 1) The failure-inducing input (the code of the test)
 
+```
+static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = arr[arr.length - i - 1];
+    }
+  }
+```
+
 2) The symptom (the failing test output)
 
 3) The bug (the code fix needed)
