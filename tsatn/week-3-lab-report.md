@@ -159,7 +159,7 @@ Teresa Tian,  A16878664
 
 3) The bug (the code fix needed)
 
->Buggy code of the method reverseInPlace 
+>Buggy code of the method reverseInPlace that causes the test to fail
 
 ```
 static void reverseInPlace(int[] arr) {
@@ -169,7 +169,7 @@ static void reverseInPlace(int[] arr) {
   }
 ```
 
->Fixed method 
+>Fixed method, which uses a variable to store the integer value at the front index, switches the back index value to the front, then updates the the back index as the old front value. 
 
 ```
   static void reverseInPlace(int[] arr) {
