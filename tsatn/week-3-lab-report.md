@@ -186,8 +186,8 @@ static void reverseInPlace(int[] arr) {
 
 > Observing the error output message from the terminal, we can see that the test does not pass since values are not being swapped. 
 > There are two bugs causing the program to fail on this test: 
->  The first one is that the program does not 
->  The second one is 
+>  The first one is that the for loop **for(int i = 0; i < arr.length; i += 1) {** loops through the entire array when it should only loop through half of the array, changing the values from the first half in the front to the back. Looping through the entire array from the first index to the last will be done switiching all of the values when it is half way through the array and switching them all back to the original positions.
+>  The second one is at the line **arr[i] = arr[arr.length - i - 1]** where it only assigns the last value of the array to the front index, and does not have code responsible for putting the front value to the back of the array.
 
 **Bug 2 ()**
 1) The failure-inducing input (the code of the test)
