@@ -149,6 +149,7 @@ Teresa Tian,  A16878664
     assertArrayEquals(new int[]{2, 7, 4, 3, 2}, ArrayExamples.reversed(input2));
   }
 ```
+
 > When the program runs, any similar tests wishing for transforming an array of multiple inputs will fail due to the existence of the bug.
 
 2) The symptom (the failing test output)
@@ -182,6 +183,11 @@ static void reverseInPlace(int[] arr) {
  ```
  
 4) The connection between the symptom and the bug. Why does the bug cause that particular symptom for that particular input?
+
+> Observing the error output message from the terminal, we can see that the test does not pass since values are not being swapped. 
+> There are two bugs causing the program to fail on this test: 
+>  The first one is that the program does not 
+>  The second one is 
 
 **Bug 2 ()**
 1) The failure-inducing input (the code of the test)
