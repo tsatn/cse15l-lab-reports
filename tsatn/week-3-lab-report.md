@@ -133,23 +133,33 @@ Teresa Tian,  A16878664
 <img width="894" alt="Screen Shot 2022-10-14 at 10 58 43 PM" src="https://user-images.githubusercontent.com/114328188/195971528-db6c27c3-c9cd-4672-ba88-ede7e7d45b91.png">
 
 ---
+
 # Part Two (Week 3)
 ## Bugs and Symptoms
 
 **Bug 1 (ArrayExamples.java)**
 1) The failure-inducing input (the code of the test)
-> In the file ArrayExamples.java, 
+> In the file ArrayExamples.java, there exist bugs in the method called reverseInPlace in the ArrayExamples class.
+> The test that fails under this method, named testManyNums(), is shown below: 
 
+```
+@Test 
+  public void testManyNums() {
+    int[] input2 = {2, 3, 4, 7, 2};
+    assertArrayEquals(new int[]{2, 7, 4, 3, 2}, ArrayExamples.reversed(input2));
+  }
+```
+> When the program runs, any similar tests wishing for transforming an array of multiple inputs will fail due to the existence of the bug.
 
 2) The symptom (the failing test output)
 
-Terminal output from running the code.
+>Terminal output from running the code.
 
 <img width="1243" alt="Screen Shot 2022-10-15 at 8 28 53 PM" src="https://user-images.githubusercontent.com/114328188/196016588-fee790b9-5cc3-4350-bcf8-e98713af8bee.png">
 
 3) The bug (the code fix needed)
 
-Buggy code of the method reverseInPlace 
+>Buggy code of the method reverseInPlace 
 
 ```
 static void reverseInPlace(int[] arr) {
