@@ -7,6 +7,7 @@ A16878664
 # Part One (Week 2)
 ## Code for SearchEngine.java
 
+```
     import java.io.IOException;
     import java.net.URI;
     import java.util.*;
@@ -61,6 +62,7 @@ A16878664
                 Server.start(port, new Handler());
             }
         }
+```
 
 ## Terminal commands
 
