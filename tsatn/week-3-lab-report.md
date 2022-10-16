@@ -101,9 +101,11 @@ A16878664
 <img width="788" alt="Screen Shot 2022-10-14 at 10 46 39 PM" src="https://user-images.githubusercontent.com/114328188/195971144-31b2934e-9e0f-4aab-8c7b-d61e6c6a042e.png">
 
 > Type in the command in the same style to add more strings to the list.
+
 <img width="789" alt="Screen Shot 2022-10-14 at 10 43 49 PM" src="https://user-images.githubusercontent.com/114328188/195971087-2eb9b627-fb9c-4ce1-ae1a-d3725263e284.png">
 
 > the command **/add?s=anewstringtoadd** empties the current string from view.
+
 <img width="788" alt="Screen Shot 2022-10-14 at 10 44 27 PM" src="https://user-images.githubusercontent.com/114328188/195971091-41f2fa31-4f44-4020-aa7e-ea718ae3a054.png">
 
 > the command **/search?s=app** allows you to search for strings that contains "app" in the stored memory. 
