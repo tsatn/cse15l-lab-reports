@@ -169,6 +169,18 @@ static void reverseInPlace(int[] arr) {
   }
 ```
 
+>Fixed method 
+
+```
+  static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length / 2; i += 1) {
+      int tempV = arr[i];
+      arr[i] = arr[arr.length - i - 1]; //assigns the back v to the front 
+      arr[arr.length - i - 1] = tempV; //assigns the front value to the back
+    }
+  }
+ ```
+ 
 4) The connection between the symptom and the bug. Why does the bug cause that particular symptom for that particular input?
 
 **Bug 2 ()**
