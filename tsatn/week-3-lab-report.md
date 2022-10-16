@@ -138,6 +138,7 @@ Teresa Tian,  A16878664
 ## Bugs and Symptoms
 
 **Bug 1 (ArrayExamples.java)**
+
 1) The failure-inducing input (the code of the test)
 > In the file ArrayExamples.java, there exist bugs in the method called reverseInPlace in the ArrayExamples class.
 > The test that fails under this method, named testManyNums(), is shown below: 
@@ -145,8 +146,8 @@ Teresa Tian,  A16878664
 ```
 @Test 
   public void testManyNums() {
-    int[] input2 = {2, 3, 4, 7, 2};
-    assertArrayEquals(new int[]{2, 7, 4, 3, 2}, ArrayExamples.reversed(input2));
+    int[] input2 = {0, 3, 4, 7, 2};
+    assertArrayEquals(new int[]{2, 7, 4, 3, 0}, ArrayExamples.reversed(input2));
   }
 ```
 
@@ -192,7 +193,11 @@ static void reverseInPlace(int[] arr) {
 
 >  The second one is at the line **arr[i] = arr[arr.length - i - 1]** where it only assigns the last value of the array to the front index, and does not have code responsible for putting the front value to the back of the array.
 
+> Due to these bugs in the code, causing the program not being able to run correctly and switch the values from the front to back, the program has the first value to be 0 instead of 2, meaning that it fails to switch the front values with the back values.
+
+
 **Bug 2 ()**
+
 1) The failure-inducing input (the code of the test)
 
 2) The symptom (the failing test output)
