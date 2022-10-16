@@ -111,8 +111,8 @@ Teresa Tian,  A16878664
 
 > the command **/search?s=app** allows you to search for strings that contains "app" in the stored memory. The returned string will be "pineapple" in this example.
 
-
 > This block of code below supports this function.
+
 ```
                 } else if (url.getPath().contains("search")) {
                     String[] parameters = url.getQuery().split("=");
