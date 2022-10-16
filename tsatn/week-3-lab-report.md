@@ -138,8 +138,18 @@ Teresa Tian,  A16878664
 
 **Bug 1 (ArrayExamples.java)**
 1) The failure-inducing input (the code of the test)
+> In the file ArrayExamples.java, 
 
-Code of the method reverseInPlace 
+
+2) The symptom (the failing test output)
+
+Terminal output from running the code.
+
+<img width="1243" alt="Screen Shot 2022-10-15 at 8 28 53 PM" src="https://user-images.githubusercontent.com/114328188/196016588-fee790b9-5cc3-4350-bcf8-e98713af8bee.png">
+
+3) The bug (the code fix needed)
+
+Buggy code of the method reverseInPlace 
 
 ```
 static void reverseInPlace(int[] arr) {
@@ -148,10 +158,6 @@ static void reverseInPlace(int[] arr) {
     }
   }
 ```
-
-2) The symptom (the failing test output)
-
-3) The bug (the code fix needed)
 
 4) The connection between the symptom and the bug. Why does the bug cause that particular symptom for that particular input?
 
