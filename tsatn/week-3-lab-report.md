@@ -134,7 +134,7 @@ A16878664
 ---
 # Part Two (Week 3)
 ## Bugs and Symptoms
-**Bug 1 ()**
+**Bug 1 (ArrayExamples.java)**
 1) The failure-inducing input (the code of the test)
 
 2) The symptom (the failing test output)
