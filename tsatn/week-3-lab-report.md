@@ -134,6 +134,22 @@ A16878664
 ---
 # Part Two (Week 3)
 ## Bugs and Symptoms
+**Bug 1 ()**
+The failure-inducing input (the code of the test)
+
+The symptom (the failing test output)
+
+The bug (the code fix needed)
+
+Then, explain the connection between the symptom and the bug. Why does the bug cause that particular symptom for that particular input?
 
 
+**Bug 2 ()**
+The failure-inducing input (the code of the test)
+
+The symptom (the failing test output)
+
+The bug (the code fix needed)
+
+Then, explain the connection between the symptom and the bug. Why does the bug cause that particular symptom for that particular input?
 
