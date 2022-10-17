@@ -91,12 +91,12 @@ Teresa Tian,  A16878664
 > type the querie **/add?s=pineapple** in the path to add a new string "pineapple" to the empty list.
 
 > This block of code below supports this function.
-```
-                        } else {
-                            strList.add(parameters[1]);
-                            return String.format("%s", strList);
-                        }
 
+```                
+} else {
+    strList.add(parameters[1]);
+    return String.format("%s", strList);
+}                        
 ```
 
 <img width="788" alt="Screen Shot 2022-10-14 at 10 46 39 PM" src="https://user-images.githubusercontent.com/114328188/195971144-31b2934e-9e0f-4aab-8c7b-d61e6c6a042e.png">
@@ -114,20 +114,20 @@ Teresa Tian,  A16878664
 > This block of code below supports this function.
 
 ```
-                } else if (url.getPath().contains("search")) {
-                    String[] parameters = url.getQuery().split("=");
-                    List<String> found = new ArrayList<String>();
+} else if (url.getPath().contains("search")) {
+    String[] parameters = url.getQuery().split("=");
+    List<String> found = new ArrayList<String>();
 
-                    if (parameters[0].contains("s")) {
+    if (parameters[0].contains("s")) {
 
-                        for (String str : strList) {
-                            if (str.contains(parameters[1])) {
-                                found.add(str);
-                            }
-                        }
-                    }
-                    return String.format("%s", found);
-                } 
+        for (String str : strList) {
+            if (str.contains(parameters[1])) {
+                found.add(str);
+            }
+        }
+    }
+    return String.format("%s", found);
+} 
 ```  
 
 <img width="894" alt="Screen Shot 2022-10-14 at 10 58 43 PM" src="https://user-images.githubusercontent.com/114328188/195971528-db6c27c3-c9cd-4672-ba88-ede7e7d45b91.png">
