@@ -250,5 +250,26 @@ class ListExamples {
   }
 ```
 
+>code fix: 
+
+```
+import java.util.ArrayList;
+import java.util.List;
+
+interface StringChecker { 
+  boolean checkString(String s); 
+}
+
+class StringCheck implements StringChecker {
+  public boolean checkString(String s) {
+    if (s.length() < 5) {
+      return true;
+    } else {
+      return false;
+    }
+  }
+}
+```
+
 4) The connection between the symptom and the bug. Why does the bug cause that particular symptom for that particular input?
 
