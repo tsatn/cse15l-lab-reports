@@ -171,7 +171,7 @@ static void reverseInPlace(int[] arr) {
   }
 ```
 
->Fixed method, which uses a variable to store the integer value at the front index, switches the back index value to the front, then updates the the back index as the old front value. 
+>code fix: fixed method, which uses a variable to store the integer value at the front index, switches the back index value to the front, then updates the the back index as the old front value. 
 
 ```
   static void reverseInPlace(int[] arr) {
