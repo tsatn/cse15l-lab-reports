@@ -217,6 +217,8 @@ static void reverseInPlace(int[] arr) {
         assertEquals(expectedArr, ListExamples.filter(arrIn, sc));
     }
    ```
+   
+> when the program runs, we are expecting it to take an input list and return a new list, which contains all the elements checked and returned true by the StringChecker. the order of the elements in the new array should be the same as the old.
 
 2) The symptom (the failing test output)
 
