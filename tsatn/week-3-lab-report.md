@@ -199,7 +199,7 @@ static void reverseInPlace(int[] arr) {
 **Bug 2 (ListExamples.java)**
 
 1) The failure-inducing input (the code of the test)
-
+> To test the code in the ListExamples.java, I wrote the test below in the file ListTests.java
 ```
  @Test
     public void testFilter() {
