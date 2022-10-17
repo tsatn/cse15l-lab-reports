@@ -274,4 +274,5 @@ class StringCheck implements StringChecker {
 4) The connection between the symptom and the bug. Why does the bug cause that particular symptom for that particular input?
 > the terminal output when running the program shows the message that it could not find the class ListTests. 
 > This is caused by the bug that the code did not implements the interface called StringChecker, therefore, we would need to create a new class that implements this interface.
-> 
+> there is a bug in the filter method, the problem is that the strings being added are only added to index 0.
+> the is also a bug in the merge method, the problem is that if list2 is longer than list1, the program only increments index1 of the first list and not the second.
