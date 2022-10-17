@@ -216,16 +216,39 @@ static void reverseInPlace(int[] arr) {
         expectedArr.add("bye");
         assertEquals(expectedArr, ListExamples.filter(arrIn, sc));
     }
-   ```
-   
+```
+
 > when the program runs, we are expecting it to take an input list and return a new list, which contains all the elements checked and returned true by the StringChecker. the order of the elements in the new array should be the same as the old.
 
 2) The symptom (the failing test output)
 
 <img width="963" alt="Screen Shot 2022-10-17 at 6 12 53 AM" src="https://user-images.githubusercontent.com/114328188/196186306-d7dab2f7-faa6-402b-b1eb-1cbf32074e6b.png">
 
-
 3) The bug (the code fix needed)
+
+>Buggy code that causes the test to fail
+
+```
+import java.util.ArrayList;
+import java.util.List;
+
+interface StringChecker { boolean checkString(String s); }
+
+class ListExamples {
+
+  // Returns a new list that has all the elements of the input list for which
+  // the StringChecker returns true, and not the elements that return false, in
+  // the same order they appeared in the input list;
+  static List<String> filter(List<String> list, StringChecker sc) {
+    List<String> result = new ArrayList<>();
+    for(String s: list) {
+      if(sc.checkString(s)) {
+        result.add(0, s);
+      }
+    }
+    return result;
+  }
+```
 
 4) The connection between the symptom and the bug. Why does the bug cause that particular symptom for that particular input?
 
