@@ -200,6 +200,24 @@ static void reverseInPlace(int[] arr) {
 
 1) The failure-inducing input (the code of the test)
 
+```
+ @Test
+    public void testFilter() {
+        List<String> arrIn = new ArrayList<>();
+        List<String> expectedArr = new ArrayList<>();
+        StringChecker sc = new StringCheck();
+        arrIn.add("hi");
+        arrIn.add("two");
+        arrIn.add("bye");
+        arrIn.add("pizzahut");
+        arrIn.add("communication");
+        expectedArr.add("hi");
+        expectedArr.add("two");
+        expectedArr.add("bye");
+        assertEquals(expectedArr, ListExamples.filter(arrIn, sc));
+    }
+   ```
+
 2) The symptom (the failing test output)
 
 <img width="963" alt="Screen Shot 2022-10-17 at 6 12 53 AM" src="https://user-images.githubusercontent.com/114328188/196186306-d7dab2f7-faa6-402b-b1eb-1cbf32074e6b.png">
