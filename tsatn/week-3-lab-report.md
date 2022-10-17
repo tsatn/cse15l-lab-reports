@@ -270,6 +270,9 @@ class StringCheck implements StringChecker {
   }
 }
 ```
+> In order to fix the buggy code, we added a class named StringCheck which implements the StringChecker interface.
 
 4) The connection between the symptom and the bug. Why does the bug cause that particular symptom for that particular input?
-
+> the terminal output when running the program shows the message that it could not find the class ListTests. 
+> This is caused by the bug that the code did not implements the interface called StringChecker, therefore, we would need to create a new class that implements this interface.
+> 
