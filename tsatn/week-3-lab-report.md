@@ -202,6 +202,9 @@ static void reverseInPlace(int[] arr) {
 
 2) The symptom (the failing test output)
 
+<img width="963" alt="Screen Shot 2022-10-17 at 6 12 53 AM" src="https://user-images.githubusercontent.com/114328188/196186306-d7dab2f7-faa6-402b-b1eb-1cbf32074e6b.png">
+
+
 3) The bug (the code fix needed)
 
 4) The connection between the symptom and the bug. Why does the bug cause that particular symptom for that particular input?
