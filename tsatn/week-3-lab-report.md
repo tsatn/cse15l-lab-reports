@@ -194,7 +194,9 @@ static void reverseInPlace(int[] arr) {
 >  The second one is at the line **arr[i] = arr[arr.length - i - 1]** where it only assigns the last value of the array to the front index, and does not have code responsible for putting the front value to the back of the array.
 
 > Due to these bugs in the code, causing the program not being able to run correctly and switch the values from the front to back, the program has the first value to be 0 instead of 2, meaning that it fails to switch the front values with the back values.
+
 ---
+
 **Bug 2 (ListExamples.java)**
 
 1) The failure-inducing input (the code of the test)
