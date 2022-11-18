@@ -42,6 +42,7 @@ step 4: n
 > Since there are only 2 more occurrences of the word start, we repeat steps 2 to 4 twice until all of the places where start appears are changes to base
 
 step 5: :wq
+
 <img width="771" alt="Screen Shot 2022-11-17 at 6 58 11 PM" src="https://user-images.githubusercontent.com/114328188/202606726-2f485490-f212-4e22-8733-bfc93aa82faf.png">
 
 ---
