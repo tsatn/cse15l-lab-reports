@@ -23,11 +23,15 @@ chosen task: changing the name of the start parameter and its uses to base
 
 <img width="800" alt="Screen Shot 2022-11-17 at 5 50 06 PM" src="https://user-images.githubusercontent.com/114328188/202599164-6d578ca8-2d4e-4800-bfd9-f5bd3f98838c.png">
   
+  
 ce
+
 <img width="695" alt="Screen Shot 2022-11-17 at 6 23 33 PM" src="https://user-images.githubusercontent.com/114328188/202602279-d0718f85-bad8-46ac-9ddb-5c45860ef683.png">
 
+  
 n: take a look at the previous command, return to /start 
-<img width="774" alt="Screen Shot 2022-11-17 at 6 25 49 PM" src="https://user-images.githubusercontent.com/114328188/202602559-680f6fc9-a01b-4684-84dd-13b63749882d.png">
+  
+<img width="770" alt="Screen Shot 2022-11-17 at 6 29 01 PM" src="https://user-images.githubusercontent.com/114328188/202603020-251697ab-6e60-4112-8a97-669031e858a1.png">
 
   
 ---
