@@ -19,7 +19,7 @@ These steps allow you to clone the repository and use vim to edit the file on th
 
 Chosen task: changing the name of the start parameter and its uses to base
 
-Step 1: /start<Enter> 
+**Step 1:** /start<Enter> 
 >This command searches for the word start and cursor jumps to the front of the word start
 
 <img width="800" alt="Screen Shot 2022-11-17 at 5 50 06 PM" src="https://user-images.githubusercontent.com/114328188/202599164-6d578ca8-2d4e-4800-bfd9-f5bd3f98838c.png">
@@ -29,20 +29,20 @@ Step 1: /start<Enter>
 
 <img width="695" alt="Screen Shot 2022-11-17 at 6 23 33 PM" src="https://user-images.githubusercontent.com/114328188/202602279-d0718f85-bad8-46ac-9ddb-5c45860ef683.png">
   
-Step 3: base<Esc>
+**Step 3:** base<Esc>
 >Changes the word start to base and quits the insert mode
   
 <img width="767" alt="Screen Shot 2022-11-17 at 6 39 23 PM" src="https://user-images.githubusercontent.com/114328188/202604316-a00f67c4-b159-4bac-83ec-ef91be761fdd.png">
 
-Step 4: n 
+**Step 4:** n 
 >Goes back to the previous command and execute it, which is re-doing step 1: /start<Enter> 
   
 <img width="772" alt="Screen Shot 2022-11-17 at 6 42 16 PM" src="https://user-images.githubusercontent.com/114328188/202604680-b4afc86a-ed1a-43b9-9575-d67f2ef066d1.png">
 
-Step 5:
+**Step 5:**
 Since there are only 2 more occurrences of the word start, we repeat steps 2 to 4 twice until all of the places where start appears are changes to base
 
-Step 6: :wq
+**Step 6:** :wq
 >Saves all of the changes 
 <img width="771" alt="Screen Shot 2022-11-17 at 6 58 11 PM" src="https://user-images.githubusercontent.com/114328188/202606726-2f485490-f212-4e22-8733-bfc93aa82faf.png">
   
