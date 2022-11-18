@@ -19,10 +19,11 @@ These steps allow you to clone the repository and use vim to edit the file on th
 
 Chosen task: changing the name of the start parameter and its uses to base
 
-**overall step:** 
-** /start<enter>cebase<esc>n.n.:w<enter> **
+***Overall Step:***
+```
+/start<enter>cebase<esc>n.n.:w<enter> 
+```
 
-  
 **Step 1:** /start<Enter> 
 >This command searches for the word start and cursor jumps to the front of the word start
 
