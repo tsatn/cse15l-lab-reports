@@ -44,10 +44,9 @@ Since there are only 2 more occurrences of the word start, we repeat steps 2 to 
 Step 6: :wq
 >Saves all of the changes 
 <img width="771" alt="Screen Shot 2022-11-17 at 6 58 11 PM" src="https://user-images.githubusercontent.com/114328188/202606726-2f485490-f212-4e22-8733-bfc93aa82faf.png">
-
   
 ---
-
+  
 ## Part Two 
 
 
