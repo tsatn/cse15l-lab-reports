@@ -2,6 +2,7 @@
 
 Teresa Tian, A16878664
 
+
 ## Part One 
 
 > The purpose of this part of the lab is based on using the Vim commands involved in Lab 6 and finding the shortest sequence of Vim commands that would complete the task.
@@ -50,12 +51,15 @@ Step 6: :wq
   
 Report how long it took you to make the edit in seconds in both styles, and any difficulties or details that came up in doing so.
   
-1. using scp
+1. using scp: editing the file from the local computer and putting it to the remote server using scp took me 10 minutes.
   
-2. using ssh
+2. using ssh: logging into the remote using ssh and editing the file took me 8 minutes.
   
-3. Which of these two styles would you prefer using if you had to work on a program that you were running remotely, and why?
+Which of these two styles would you prefer using if you had to work on a program that you were running remotely, and why?
   
-4. What about the project or task might factor into your decision one way or another? (If nothing would affect your decision, say so and why!)
+What about the project or task might factor into your decision one way or another? (If nothing would affect your decision, say so and why!)
 
 
+  
+  
+  
