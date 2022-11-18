@@ -24,7 +24,7 @@ Step 1: /start<Enter>
 
 <img width="800" alt="Screen Shot 2022-11-17 at 5 50 06 PM" src="https://user-images.githubusercontent.com/114328188/202599164-6d578ca8-2d4e-4800-bfd9-f5bd3f98838c.png">
   
-Step 2: ce
+**Step 2:** ce
 >This command enters insert mode and delete the word start
 
 <img width="695" alt="Screen Shot 2022-11-17 at 6 23 33 PM" src="https://user-images.githubusercontent.com/114328188/202602279-d0718f85-bad8-46ac-9ddb-5c45860ef683.png">
