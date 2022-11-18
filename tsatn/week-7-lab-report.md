@@ -49,15 +49,15 @@ Step 6: :wq
 ---
 ## Part Two 
   
-Report how long it took you to make the edit in seconds in both styles, and any difficulties or details that came up in doing so.
+a. Report how long it took you to make the edit in seconds in both styles, and any difficulties or details that came up in doing so.
   
-1. using scp: editing the file from the local computer and putting it to the remote server using scp took me 10 minutes.
+  1. using scp: editing the file from the local computer and putting it to the remote server using scp took me 10 minutes.
   
-2. using ssh: logging into the remote using ssh and editing the file took me 8 minutes.
+  2. using ssh: logging into the remote using ssh and editing the file took me 8 minutes.
   
-Which of these two styles would you prefer using if you had to work on a program that you were running remotely, and why?
+b. Which of these two styles would you prefer using if you had to work on a program that you were running remotely, and why?
   
-What about the project or task might factor into your decision one way or another? (If nothing would affect your decision, say so and why!)
+c. What about the project or task might factor into your decision one way or another? (If nothing would affect your decision, say so and why!)
 
 
   
