@@ -46,12 +46,16 @@ Step 6: :wq
 <img width="771" alt="Screen Shot 2022-11-17 at 6 58 11 PM" src="https://user-images.githubusercontent.com/114328188/202606726-2f485490-f212-4e22-8733-bfc93aa82faf.png">
   
 ---
-  
 ## Part Two 
-
+  
+Report how long it took you to make the edit in seconds in both styles, and any difficulties or details that came up in doing so.
+  
 1. using scp
+  
 2. using ssh
+  
 3. Which of these two styles would you prefer using if you had to work on a program that you were running remotely, and why?
+  
 4. What about the project or task might factor into your decision one way or another? (If nothing would affect your decision, say so and why!)
 
 
