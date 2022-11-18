@@ -7,7 +7,7 @@ Teresa Tian, A16878664
 
 > The purpose of this part of the lab is based on using the Vim commands involved in Lab 6 and finding the shortest sequence of Vim commands that would complete the task.
 
-Set up: 
+***Set up:***
 1. Open a New Terminal in VS Code 
 2. Type git clone https://github.com/ucsd-cse15l-f22/skill-demo1 week6-skill-demo1
 3. ls and type cd week6-skill-demo1
@@ -17,7 +17,7 @@ These steps allow you to clone the repository and use vim to edit the file on th
 
 <img width="470" alt="Screen Shot 2022-11-17 at 1 53 45 PM" src="https://user-images.githubusercontent.com/114328188/202567980-237436fc-c510-444d-b60f-291a73629964.png">
 
-Chosen task: changing the name of the start parameter and its uses to base
+***Chosen Task:*** Changing the name of the start parameter and its uses to base
 
 ***Overall Step:***
 ```
