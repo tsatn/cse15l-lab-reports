@@ -49,5 +49,9 @@ Step 6: :wq
   
 ## Part Two 
 
+1. using scp
+2. using ssh
+3. Which of these two styles would you prefer using if you had to work on a program that you were running remotely, and why?
+4. What about the project or task might factor into your decision one way or another? (If nothing would affect your decision, say so and why!)
 
 
