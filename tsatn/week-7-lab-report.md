@@ -56,9 +56,12 @@ a. Report how long it took you to make the edit in seconds in both styles, and a
   2. using ssh: logging into the remote using ssh and editing the file took me 8 minutes.
   
 b. Which of these two styles would you prefer using if you had to work on a program that you were running remotely, and why?
+
+> I prefer method 2 which is logging into the remote using ssh and editing the file. I think this method is better since you would be able to save more time from not having to always updating the remote and re-typing the passcodes.
   
 c. What about the project or task might factor into your decision one way or another? (If nothing would affect your decision, say so and why!)
 
+> I believe that the complexity or the amount of the changes that I have to make in the file is crucial to which method I am going to use. If I only have to make some minor changes, I would choose to ssh log in into remote and edit from there directly. If I have to make lots of edits, I would choose to finish making all of the changes on my local computer and scp the changes to the remote.
 
   
   
