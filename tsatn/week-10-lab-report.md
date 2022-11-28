@@ -45,14 +45,16 @@ A16878664
 
 ## Part 2: reported grade loaded in the browser 
 
-#### student submission 1 
+#### student submission 1 ([3rd link](https://github.com/ucsd-cse15l-f22/list-methods-compile-error))
+
+<img width="820" alt="Screen Shot 2022-11-28 at 11 44 37 AM" src="https://user-images.githubusercontent.com/114328188/204366892-f11aff34-e59a-441a-ac16-43bfbe91332a.png">
 
 #### student submission 2 ([2nd link](https://github.com/ucsd-cse15l-f22/list-methods-corrected))
+
 <img width="860" alt="Screen Shot 2022-11-28 at 11 40 58 AM" src="https://user-images.githubusercontent.com/114328188/204366577-f3398778-07cf-443e-80c6-0e3f28d89701.png">
 
-
-#### student submission 3
-
+#### student submission 3 ([4th link](https://github.com/ucsd-cse15l-f22/list-methods-signature))
+<img width="794" alt="Screen Shot 2022-11-28 at 11 46 07 AM" src="https://user-images.githubusercontent.com/114328188/204367114-88999d03-4fc9-449e-90c5-be617e4c3fc1.png">
 
 ## Part 3: tracing the script
 
