@@ -47,7 +47,9 @@ A16878664
 
 #### student submission 1 
 
-#### student submission 2 
+#### student submission 2 ([2nd link](https://github.com/ucsd-cse15l-f22/list-methods-corrected))
+<img width="860" alt="Screen Shot 2022-11-28 at 11 40 58 AM" src="https://user-images.githubusercontent.com/114328188/204366577-f3398778-07cf-443e-80c6-0e3f28d89701.png">
+
 
 #### student submission 3
 
