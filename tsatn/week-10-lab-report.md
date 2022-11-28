@@ -43,12 +43,19 @@ A16878664
 
 ```
 
-## part 2: reported grade loaded in the browser 
+## Part 2: reported grade loaded in the browser 
 
 #### student submission 1 
+
 #### student submission 2 
+
 #### student submission 3
 
 
-## part 3: tracing the script
+## Part 3: tracing the script
 
+For each line with a command, what its standard output and standard error are for this run, and whether its return code was zero or nonzero
+
+For each line with an if statement, whether the condition was true or false, and why
+
+Indicate each line that does not run (maybe because it is in an if branch that doesn’t evaluate, or after an early exit)
