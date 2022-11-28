@@ -41,7 +41,11 @@ A16878664
 
 ```
 
-## part 2: 3 student submissions and their reported grade loaded in the browser 
+## part 2: reported grade loaded in the browser 
+
+#### student submission 1 
+#### student submission 2 
+#### student submission 3
 
 
 ## part 3: tracing the script
