@@ -4,7 +4,7 @@ Teresa Tian
 
 A16878664
 
-## Part 1: 
+## Part 1: grade.sh in a code block
 ```
 	#clone to local
 	if [ -d 'student-submission' ]
@@ -41,8 +41,8 @@ A16878664
 
 ```
 
-## part 2: 
+## part 2: 3 student submissions and their reported grade loaded in the browser 
 
 
-## part 3: 
+## part 3: tracing the script
 
