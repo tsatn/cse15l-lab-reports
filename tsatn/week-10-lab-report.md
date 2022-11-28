@@ -1,4 +1,4 @@
-# Lab Report 5 
+# Lab Report 5 - Grading Script
 
 Teresa Tian 
 
