@@ -65,7 +65,7 @@ Next, after the equal sign, add the link to the student submission and hit retur
 #### Student submission 2 ([3rd link](https://github.com/ucsd-cse15l-f22/list-methods-compile-error))
 <img width="811" alt="Screen Shot 2022-11-29 at 1 48 55 PM" src="https://user-images.githubusercontent.com/114328188/204655387-b703f09b-4f0a-442e-9203-0fad46d6ebbe.png">
 
-#### Student submission 3 ([5th link]([https://github.com/ucsd-cse15l-f22/list-methods-signature](https://github.com/ucsd-cse15l-f22/list-methods-filename)))
+#### Student submission 3 ([5th link](https://github.com/ucsd-cse15l-f22/list-methods-filename)))
 <img width="780" alt="Screen Shot 2022-11-29 at 1 51 32 PM" src="https://user-images.githubusercontent.com/114328188/204656037-0b057a51-9a68-47fc-bbf6-ed7fac0ad856.png">
 
 ---
