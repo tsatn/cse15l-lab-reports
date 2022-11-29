@@ -1,6 +1,7 @@
 # Lab Report 5 - Grading Script
 
-Teresa Tian  A16878664
+Teresa Tian  
+A16878664
 
 ---
 
