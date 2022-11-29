@@ -59,7 +59,7 @@ After the brower is opened following the terminal link, type **/grade?repo=** in
 
 Next, after the equal sign, add the link to the student submission and hit return. 
 
-#### Student submission 1 ([2nd link]([https://github.com/ucsd-cse15l-f22/list-methods-compile-error](https://github.com/ucsd-cse15l-f22/list-methods-corrected)))
+#### Student submission 1 ([2nd link](https://github.com/ucsd-cse15l-f22/list-methods-corrected))
 <img width="893" alt="Screen Shot 2022-11-29 at 1 43 52 PM" src="https://user-images.githubusercontent.com/114328188/204654500-9b95827f-7356-4367-bbfb-913d9962c82b.png">
 
 #### Student submission 2 ([3rd link](https://github.com/ucsd-cse15l-f22/list-methods-compile-error))
