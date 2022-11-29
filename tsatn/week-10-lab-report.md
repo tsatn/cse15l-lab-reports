@@ -1,49 +1,57 @@
 # Lab Report 5 - Grading Script
 
-Teresa Tian 
-
-A16878664
+Teresa Tian  A16878664
 
 ---
 
 ## Part 1: grade.sh in a code block
+
 ```
-	#clone to local
-	if [ -d 'student-submission' ]
-	then
-		rm -rf student-submission
-		echo 'old submission purged'
-	fi
+rm -rf student-submission
 
-	if [ ! $# -eq 0 ]
-	then
-		git clone $1 student-submission
-		echo 'finished cloning'
-	else
-		echo 'no repo supplied'
-	fi
+#clone to local
+git clone $1 student-submission
+echo 'finished cloning'
 
-	#check file exist
-	if [ ! -e 'student-submission/ListExamples.java' ]
-	then
-		echo 'ListExamples.java missing from submission'
-		exit
-	fi
+#check file exist
+if [ ! -e 'student-submission/ListExamples.java' ]
+then
+	echo 'ListExamples.java missing from submission'
+	exit
+fi
 
-	#copy test to submission folder
-	cp TestListExamples.java student-submission 
-	echo "setup test cases"
+#copy test to submission folder
+cp TestListExamples.java student-submission 
+echo "setup test cases"
 
-	#compile
-	set -e
-	javac -classpath "lib/*" -d student-submission student-submission/*.java
-	echo "Succesfully Compiled"
+#compile
+set -e
+javac -classpath "lib/*" -d student-submission student-submission/*.java
+echo "Succesfully Compiled, congrats!"
+echo "Your grade: 100%"
 
-	#run junit
+#run junit
+
+echo "Running tests..."
+java -cp .:../lib/hamcrest-core-1.3.jar:../lib/junit-4.13.2.jar org.junit.runner.JUnitCore TestListExamples > error.txt
+
+cat error.txt
+faliure =$(grep -i "Failures:" error.txt)
+
+if[[$faliure == ""]]
+then 
+echo "You are Good, all test passd"
+echo "Your grade: 100%"
+fi
 
 ```
 
 ## Part 2: reported grade loaded in the browser 
+
+Getting the link to the local browser:
+
+<img width="703" alt="Screen Shot 2022-11-29 at 1 28 29 PM" src="https://user-images.githubusercontent.com/114328188/204652703-837dba03-63ed-46b2-95cf-418994970dd5.png">
+
 
 #### student submission 1 ([3rd link](https://github.com/ucsd-cse15l-f22/list-methods-compile-error))
 
