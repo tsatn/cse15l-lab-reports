@@ -47,7 +47,7 @@ fi
 
 ---
 
-## Part 2: reported grade loaded in the browser 
+## Part 2: Testing and Grading 3 different student submissions in the browser 
 
 Using Terminal to compile files to get the link to the local browser: 
 
@@ -70,7 +70,7 @@ Next, after the equal sign, add the link to the student submission and hit retur
 
 ---
 
-## Part 3: tracing the script
+## Part 3: Tracing the script for student submission 2
 
 For each line with a command, what its standard output and standard error are for this run, and whether its return code was zero or nonzero
 
